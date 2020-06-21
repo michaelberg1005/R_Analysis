@@ -1,0 +1,20 @@
+1.) Mpg multiple regression analysis
+a.) Vehicle Length and Ground Clearance are the only variable (along with intercept) that provide non random variance to MPG in the dataset, as they were the only ones that had statistically significant p-values (<.01) at the 99% confidence level. The other variable have non-statistically significant p-values, suggesting their implications are random on mpg.
+b.) No, the slop of the linear regression model is not considered to be 0 when you use the two variables above, because you can statistically reject the null hypothesis that the slope is 0, since the p-values are statistically significant at a high confidence level noted above.
+c.) It predicts it at a moderate level of accuracy since its adjusted R-squared is .66 or 66%.
+2.) Suspension Coil Summary
+a.) Mean = 1499
+b.) Median = 1500
+c.) Variance = 62.29
+d.) STD = 7.89
+e.) The current manufacturing data meets the design specification of less than variance of 100 PSI, because the variance of PSI in this data set is ~62.29
+3.) Suspension Coil T-Test
+a.) Assuming our significance level was the common 0.05 percent, our p-value of .06 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would conclude that the two means are statistically similar.
+4.) Design a Study
+a.) Metrics interested to consumer:
+	i.) When comparing the MechaCar prototype car to other on the market it is first important to determine what are the key metrics to compare when analyzing one car versus the other that consumers would be interested in. The five key metrics would be cost, miles per gallon fuel efficiency (mpg), acceleration, safety rating, features/luxurious (on a ratings scale).
+b.)Question to be asked:
+	i.) Is the MEchaCar's cost statiscally likely to be determined by its performanc metrics and are the metrics described above statsicially likely to contribute non-random amounts of variance to a multiple linear regression model. The null hypothesis is each factor is likely to produce random results for predicting costs, while the alternative hypothesis is it is unlikely to produce randome results for predicting cost. In order to properly perform this test you would need to do a multiple linear regression analysis.
+	ii.) The other question we could ask is are each of the MechaCar's key metrics significantly different than a competitors car. The null hypothesis for each comparison would be that each metric is equal to the comparison car. The alternative hypothesis is that the metric is statiscally different to the MEchaCar. In order to properly perform this test you would need to perfrom a two-sample t-tes for each metric.
+c.)Data to be collected
+	i. For answering both questions, we would need to collect all of the cost, mpg, acceleration, safety rating and luxury rating data for the MechaCar, as well as any competitor vehicle we would want to compare it to. 
